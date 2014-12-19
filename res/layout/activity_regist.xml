@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/register">
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="昵        称"
+            android:textSize="20sp"></TextView >
+
+        <EditText
+            android:id="@+id/nickName"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="45dp"
+            android:textSize="20sp" 
+            android:inputType="none">
+        </EditText>
+    </LinearLayout>   
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="手        机"
+            android:textSize="20sp"></TextView >
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:digits="0123456789"
+            android:inputType="phone" >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="密        码"
+            android:textSize="20sp"></TextView >
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            >
+        </EditText>
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="确认密码"
+            android:textSize="20sp"></TextView >
+
+        <EditText
+            android:id="@+id/Confirm_password"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            >
+        </EditText>
+    </LinearLayout>
+	<LinearLayout 
+	     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+	    >
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="身        份"
+            android:textSize="20sp"></TextView >
+   	<RadioGroup
+        	android:id="@+id/actor"  android:layout_width="wrap_content"  android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/driver"
+            android:layout_width="100dp" android:layout_height="35dp"
+            android:text="司机"  android:layout_marginLeft="10dp"  android:layout_marginTop="5dp"
+            
+            />
+        <RadioButton
+            android:id="@+id/passenger"
+            android:layout_width="100dp" android:layout_height="35dp"
+            android:text="乘客"  android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+            />
+    </RadioGroup>
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="5dp"
+            android:text="车  牌  号 "
+            android:textSize="20sp"></TextView >
+
+        <EditText
+            android:id="@+id/car_number"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+             android:inputType="none"
+            >
+        </EditText>
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="车        型"
+            android:textSize="20sp"></TextView >
+
+        <EditText
+            android:id="@+id/car_style"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:inputType="none"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="horizontal" android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+       	<Button 
+       	    android:id="@+id/submit"
+       	    android:layout_width="250dp"
+       	    android:layout_height="40dp"
+       	    android:layout_marginTop="5dp"
+       	    android:layout_marginLeft="40dp"
+       	    android:background="@drawable/regist_submitbutton"
+       	    android:radius="5dip"></Button>
+	</LinearLayout>
+	
+	
+</LinearLayout>
