@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#96969696" >
+    <LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <TextView
+          android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="10dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="昵    称:"></TextView>
+	  <TextView
+	      android:id="@+id/NiCheng"
+	      android:layout_width="150dp"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="10dp"
+	      android:layout_marginLeft="10dp" 
+	      android:textSize="20sp"
+	      android:text=""
+	      ></TextView>
+	  <Button
+	      android:id="@+id/nikname"
+	      android:layout_width="80dp"
+	      android:layout_height="40dp"
+	      android:layout_marginTop="10dp"
+	      android:textSize="15sp"
+	      android:text="修    改"
+	      ></Button>  
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <TextView
+          android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="10dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="电    话:"></TextView>
+	  <TextView
+	      android:id="@+id/DianHua"
+	      android:layout_width="150dp"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="10dp" 
+	      android:layout_marginLeft="10dp" 
+	      android:textSize="20sp"
+	      android:text=""></TextView>
+	  <Button
+	      android:id="@+id/phonenumber"
+	      android:layout_width="80dp"
+	      android:layout_height="40dp"
+	      android:layout_marginTop="10dp"
+	      android:textSize="15sp"
+	      android:text="修    改"
+	      ></Button>
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <TextView
+          android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="10dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="密    码:"></TextView>
+	  <TextView
+	      android:id="@+id/MiMa"
+	      android:layout_width="150dp"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="10dp"
+	      android:layout_marginLeft="10dp" 
+	      android:textSize="20sp"
+	      android:text=""></TextView>
+	  <Button
+	      android:id="@+id/password"
+	      android:layout_width="80dp"
+	      android:layout_height="40dp"
+	      android:layout_marginTop="10dp"
+	      android:textSize="15sp"
+	      android:text="修    改"
+	      ></Button>
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <TextView
+          android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="10dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="车牌号:"></TextView>
+	  <TextView
+	      android:id="@+id/ChePaiHao"
+	      android:layout_width="150dp"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="10dp"
+	      android:layout_marginLeft="10dp" 
+	      android:textSize="20sp"
+	      android:text=""></TextView>
+	  <Button
+	      android:id="@+id/carnumber"
+	      android:layout_width="80dp"
+	      android:layout_height="40dp"
+	      android:layout_marginTop="10dp"
+	      android:textSize="15sp"
+	      android:text="修    改"
+	      ></Button>
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <TextView
+          android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="10dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="车    型:"></TextView>
+	  <TextView
+	      android:id="@+id/CheXing"
+	      android:layout_width="150dp"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="10dp"
+	      android:layout_marginLeft="10dp" 
+	      android:textSize="20sp"
+	      android:text=""></TextView>
+	  <Button
+	      android:id="@+id/carstyle"
+	      android:layout_width="80dp"
+	      android:layout_height="40dp"
+	      android:layout_marginTop="10dp"
+	      android:textSize="15sp"
+	      android:text="修    改"
+	      ></Button>
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <TextView
+          android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="10dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="身    份:"></TextView>
+	  <TextView
+	      android:id="@+id/ShenFen"
+	      android:layout_width="150dp"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="10dp"
+	      android:layout_marginLeft="10dp" 
+	      android:textSize="20sp"
+	      android:text=""></TextView>
+	  <Button
+	      android:id="@+id/actor"
+	      android:layout_width="80dp"
+	      android:layout_height="40dp"
+	      android:layout_marginTop="10dp"
+	      android:textSize="15sp"
+	      android:text="修    改"
+	      ></Button>
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	  <Button
+	       android:id="@+id/goback"
+	      android:layout_width="300dp"
+	      android:layout_height="40dp"
+	      android:layout_marginLeft="10dp"
+	      android:layout_marginRight="10dp"
+	      android:layout_marginTop="30dp"
+	      android:background="@drawable/setting_backbutton"
+	      ></Button>
+	</LinearLayout>
+  
+
+</LinearLayout>
