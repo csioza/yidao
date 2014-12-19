@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"  android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/loginbackground"
+    >
+	  <LinearLayout
+	      android:orientation="horizontal" android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+       >
+      <TextView
+          android:id="@+id/username" android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="190dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="手机号"
+		  ></TextView>
+      <EditText 
+          android:id="@+id/phonenumber"
+          android:layout_width="220dp" android:layout_height="40dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="190dp"
+          android:textSize="20sp"
+          android:inputType="phone"
+          android:digits="0123456789"
+          ></EditText> 
+  	</LinearLayout>
+  <LinearLayout
+	      android:orientation="horizontal" android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+       >
+      <TextView
+          android:id="@+id/password" android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:layout_marginTop="8dp"
+		  android:layout_marginLeft="10dp"
+		  android:textSize="20sp"
+		  android:text="密    码"
+		  ></TextView>
+      <EditText 
+          android:id="@+id/Password"
+          android:layout_width="220dp" android:layout_height="40dp"
+          android:layout_marginTop="15dp"
+          android:layout_marginLeft="10dp"
+          android:textSize="20sp"
+          android:inputType="textPassword"
+          ></EditText> 
+  	</LinearLayout>
+    <LinearLayout 
+        android:orientation="horizontal" android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+
+       	<Button
+       	    android:id="@+id/logining"
+       	    android:layout_width="100dp"
+       	    android:layout_height="30dp"
+       	    android:layout_marginLeft="50dp"
+       	    android:layout_marginRight="40dp"
+       	    android:layout_marginTop="30dp"
+       	    android:background="@drawable/loginbutton" ></Button>
+       	<Button 
+       	    android:id="@+id/register"
+       	    android:layout_width="100dp"
+       	    android:layout_height="30dp"
+       	    android:layout_marginTop="30dp"
+       	    android:layout_marginRight="10dp"
+       	    android:background="@drawable/registerbutton"></Button>
+       	
+        
+    </LinearLayout>	
+  
+  
+</LinearLayout>
