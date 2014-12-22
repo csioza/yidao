@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MyListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:paddingBottom="3dip"
+    android:paddingLeft="10dip" >
+
+    <TextView
+        android:id="@+id/carNumber"
+        android:layout_width="223dp"
+        android:layout_height="fill_parent"
+       	android:layout_weight="1.8"
+        android:text="辽A23545"
+        android:textSize="25dip" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="36dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="9.76"
+        android:textSize="25dp" />
+
+</LinearLayout>  
